@@ -1,0 +1,243 @@
+[
+    {
+     "id":"Wina1",
+     "name":"Wina1",
+     "parent_id":"0"
+    }, 
+    {
+     "id":"Wina2",
+     "name":"Wina2",
+     "parent_id":"0"
+    }, 
+    {
+     "id":"Wina3",
+     "name":"Wina3",
+     "parent_id":"0"
+    },
+    {
+     "id":"Wina4",
+        "name":"Wina4",
+        "parent_id":"0"
+    },
+    {
+     "id":"Wina5",
+        "name":"Wina5",
+        "parent_id":"0"
+    },
+       {
+     "id":"Wina6",
+        "name":"Wina6",
+        "parent_id":"0"
+    },
+    {
+     "id":"Lusaka CPD",
+     "name":"Lusaka CPD",
+     "parent_id":"Wina1"
+    }, 
+    {
+     "id":"Libala",
+     "name":"Libala",
+     "parent_id":"Wina2"
+    }, 
+    {
+     "id":"Kabwata",
+     "name":"Kabwata",
+     "parent_id":"Wina3"
+    }, 
+    {
+    "id":"Mandevu",
+        "name":"Mandevu",
+        "parent_id":"Wina4"
+    }, 
+    {
+        "id":"Woodlands",
+        "name":"Woodlands",
+        "parent_id":"Wina5"
+    }, 
+    {
+        "id":"Matero East",
+        "name":"Matero East",
+        "parent_id":"Wina6"
+    }, 
+    {
+     "id":"Airtel Money",
+     "name":"Airtel Money",
+     "parent_id":"Lusaka CPD"
+    }, 
+    {
+        "id":"MTN Money",
+        "name":"MTN Money",
+        "parent_id":"Lusaka CPD"
+       },
+    
+       {
+        "id":"Zamtel Money",
+        "name":"Zamtel Money",
+        "parent_id":"Lusaka CPD"
+       }, 
+    
+       {
+        "id":"Zanaco",
+        "name":"Zanaco",
+        "parent_id":"Lusaka CPD"
+       }, 
+    
+       {
+        "id":"FNB",
+        "name":"FNB",
+        "parent_id":"Lusaka CPD"
+       }, 
+
+       {
+        "id":"Airtel Money",
+        "name":"Airtel Money",
+        "parent_id":"Libala"
+       }, 
+       {
+           "id":"MTN Money",
+           "name":"MTN Money",
+           "parent_id":"Libala"
+          },
+       
+          {
+           "id":"Zamtel Money",
+           "name":"Zamtel Money",
+           "parent_id":"Libala"
+          }, 
+    
+       
+          {
+           "id":"FNB",
+           "name":"FNB",
+           "parent_id":"Libala"
+          },
+
+
+
+
+          {
+            "id":"Airtel Money",
+            "name":"Airtel Money",
+            "parent_id":"Kabwata"
+           }, 
+           {
+               "id":"MTN Money",
+               "name":"MTN Money",
+               "parent_id":"Kabwata"
+              },
+           
+              {
+               "id":"Zamtel Money",
+               "name":"Zamtel Money",
+               "parent_id":"Kabwata"
+              }, 
+           
+              {
+               "id":"Zanaco",
+               "name":"Zanaco",
+               "parent_id":"Kabwata"
+              }, 
+           
+              {
+               "id":"FNB",
+               "name":"FNB",
+               "parent_id":"Kabwata"
+              },
+
+
+
+              {
+                "id":"Airtel Money",
+                "name":"Airtel Money",
+                "parent_id":"Mandevu"
+               }, 
+               {
+                   "id":"MTN Money",
+                   "name":"MTN Money",
+                   "parent_id":"Mandevu"
+                  },
+               
+                  {
+                   "id":"Zamtel Money",
+                   "name":"Zamtel Money",
+                   "parent_id":"Mandevu"
+                  },
+    
+                  
+
+                  {
+                    "id":"Airtel Money",
+                    "name":"Airtel Money",
+                    "parent_id":"Woodlands"
+                   }, 
+                   {
+                       "id":"MTN Money",
+                       "name":"MTN Money",
+                       "parent_id":"Woodlands"
+                      },
+
+                   
+                      {
+                       "id":"Zanaco",
+                       "name":"Zanaco",
+                       "parent_id":"Woodlands"
+                      }, 
+                   
+                      {
+                       "id":"FNB",
+                       "name":"FNB",
+                       "parent_id":"Woodlands"
+                      },
+
+
+                      {
+                        "id":"Airtel Money",
+                        "name":"Airtel Money",
+                        "parent_id":"Matero East"
+                       }, 
+                       {
+                           "id":"MTN Money",
+                           "name":"MTN Money",
+                           "parent_id":"Matero East"
+                          },
+                       
+                          {
+                           "id":"Zamtel Money",
+                           "name":"Zamtel Money",
+                           "parent_id":"Matero East"
+                          }
+                          
+
+                       
+                      
+    
+                      
+
+]
+              
+           
+          
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+ 

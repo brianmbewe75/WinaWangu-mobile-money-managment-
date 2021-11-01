@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Baloo 2', cursive;
+	background: linear-gradient(to right, #8942a8, #8816f3);
+}
+.banner-text {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+ 
+}
+.admin{
+	float: right;
+ text-decoration: none;
+	padding-right: .6rem;
+}
+
+.banner-text h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 20%;
+	
+}
+
+.banner-text h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 0%;
+}
+.button 
+{ 
+	margin-top: 7%;
+	text-align: center;
+    top:70%;
+    left: 30%;
+    transform: translate(-50%-50%);
+}
+.btn
+{
+    text-decoration: none;
+    margin-top: 80%;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-indent: none;
+    transition: 0.8s ease;
+}
+.btn:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+.offer
+{
+    text-align: center;
+margin-top: 5%;
+}
+ 
+
+
+.animation-area {
+	/* background: linear-gradient(to left, #8942a8, #ba382f); */
+	background: linear-gradient(to right, #8942a8, #8816f3);
+	width: 100%;
+	height: 100vh;
+}
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+.offer{
+	color: #fff;
+}
+.images{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.images a:hover img
+{
+    transform: translateY(-10px);
+}
+@media only screen and (max-with: 960px)
+{
+    
+
+    h1{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 584px)
+{
+	.animation-area
+	{
+		width: 100%;
+	}
+}

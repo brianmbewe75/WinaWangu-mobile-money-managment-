@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+main{
+background-color: white;
+}
+
+ 
+
+nav{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #8942a8;
+    font-weight: 700;
+}
+.menu > li, .menu > a {
+    display: inline-block;
+}
+
+
+.menu li{
+    position: relative;
+    background:  #8816f3;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color:  #fff;
+display: block; 
+padding: 10px 1.5rem;
+ transition: #8942a8 .22s ease, color .22s ease;
+}
+.menu a:hover{
+    background-color:#8942a8;
+    color: #fff;
+}
+
+
+/* PIE CHART */
+
+.PieChart{
+
+    padding-left: 45%;
+}
+
+
+
+
+
+
+
+
+/* submenu level 1 */ 
+.submenu{
+    position: absolute;
+    background-color: #2c3e50;
+    width: 140px;
+    left: 0;
+    display: none;
+}
+
+
+
+/* submenu level 2 */  
+
+
+.submenu2{
+
+    position: absolute;
+    left: 100%;
+    background-color: #2c3e50;
+    width: 140px;
+    top: 0;
+background-color: #2c3e50;
+display: none;
+}
+
+
+
+/* show menu on hover */
+
+
+.menu li:hover > .submenu {
+    display: block;
+    animation: slideup .3s ease;
+}
+
+.submenu li:hover > .submenu2{
+    display: block;
+    animation: slideleft .3s ease;
+}
+
+/* animation key frameks */
+
+@keyframes sideup{
+    0%{
+        opacity: 0;
+        transform: translate(18px);
+
+
+    }
+
+100%{
+    opacity: 1;
+    transform: none;
+}
+
+
+}
+
+
+
+@keyframes slideleft{
+
+    0% {
+        opacity: 0;
+        transform: translate(18px);
+    }
+100%{
+    opacity: 1;
+    transform: none;
+}
+
+}
